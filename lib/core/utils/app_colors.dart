@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 abstract class AppColors
 {
+  static Color primaryColors = Color(0xffE5E5E5);
   static Color lavenderPinkish = Color(0xffE5B6F2);
   static Color lightPurple = Color(0xffCD77F2);
   static Color ofWight = Color(0xff7B15BF);
