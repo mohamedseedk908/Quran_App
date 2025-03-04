@@ -1,7 +1,7 @@
 class AppStrings {
   static const String nameApp = "Quran App";
   static const String supTitleInSplashScreen =
-      "Learn Quran every day and recite once everyday";
+      "Learn Quran every day and recite once everyday email mohamedsedyk@gmail.com";
   static const String getStarted = "Get started";
   static const String quranApp = "Quran App";
   static const String asalamuAlaikum = "Asalamu Alaikum !!!";

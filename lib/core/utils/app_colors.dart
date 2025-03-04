@@ -8,4 +8,5 @@ abstract class AppColors
   static Color ofWight = Color(0xff7B15BF);
   static Color brightPurple = Color(0xff9D1DF2);
   static Color  deepViolet = Color(0xff300759);
+  static Color white  = Colors.white;
 }
