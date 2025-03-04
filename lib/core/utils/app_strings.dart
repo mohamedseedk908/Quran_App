@@ -4,7 +4,7 @@ class AppStrings {
       "Learn Quran every day and recite once everyday email mohamedsedyk@gmail.com";
   static const String getStarted = "Get started";
   static const String quranApp = "Quran App";
-  static const String asalamuAlaikum = "Asalamu Alaikum !!!";
+  static const String asalamuAlaikum = "Asalamu Alaikum !!! i Am Mohamed Sedyk";
   static const String signIn = "Sign In ";
   static const String email = "email";
   static const String password = "Password";

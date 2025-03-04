@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:quran_app/core/utils/app_colors.dart';
 import 'package:quran_app/core/utils/app_strings.dart';
 import 'package:quran_app/core/utils/custom_text_stayls.dart';
@@ -12,8 +13,8 @@ class CustomButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 183,
-      height: 51,
+      width: 183.w,
+      height: 51.h,
       child: ElevatedButton(
         onPressed: onPressed,
         style: ButtonStyle(
@@ -25,7 +26,7 @@ class CustomButton extends StatelessWidget {
           ),
         ),
         child: Text(
-          text ?? AppStrings.getStarted,style:CustomTextStyles.poppinsBold18,
+          text ?? AppStrings.getStarted,style:CustomTextStyles.poppinsBold13,
         ),
       ),
     );

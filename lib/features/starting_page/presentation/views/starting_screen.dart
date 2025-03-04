@@ -8,7 +8,7 @@ class StartingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.pinkish,
+      backgroundColor: AppColors.primaryColors,
       body: BodyStartingScreen(),
     );
   }
