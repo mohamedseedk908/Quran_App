@@ -36,6 +36,7 @@ class InnerPage extends StatelessWidget {
 class CustomBody extends StatelessWidget {
   const CustomBody({super.key});
 
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -47,6 +48,13 @@ class CustomBody extends StatelessWidget {
               AppAssets.mosque,
             ),
             fit: BoxFit.scaleDown),
+      ),
+      child: SingleChildScrollView(
+        child: Column(
+          children: [
+
+          ],
+        ),
       ),
     );
   }
