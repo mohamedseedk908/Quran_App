@@ -12,6 +12,7 @@ class CustomContainer extends StatelessWidget {
       width: 296.w,
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12), color: AppColors.pinkish),
+
     );
   }
 }

@@ -1,13 +1,26 @@
 import 'package:dio/dio.dart';
+import 'package:quran_app/core/api/api_interceptors.dart';
+import 'package:quran_app/core/errors/exception.dart';
 import 'api_consumer.dart';
-import 'package:untitled/core/errors/exception.dart';
 
 class DioConsumer extends ApiConConsumer {
   final Dio dio;
 
   DioConsumer({
     required this.dio,
-  });
+  }){
+    dio.options.baseUrl = "http://api.alquran.cloud/v1/";
+    dio.interceptors.add(ApiInterceptor());
+
+    dio.interceptors.add(LogInterceptor(
+      request: true,
+      requestHeader: true,
+      requestBody: true,
+      responseHeader: true,
+      responseBody: true,
+      error: true,
+    ));
+  }
 
   @override
   Future delete(String path,

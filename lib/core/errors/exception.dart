@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:untitled/core/errors/error_model.dart';
+import 'package:quran_app/core/errors/error_model.dart';
 
 class ServerException implements Exception {
   final ErrorModel errmodel;
